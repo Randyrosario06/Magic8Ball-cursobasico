@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Magic8Ball</string>
+    <string name="et1">Escribe tu nombre.</string>
+    <string name="et3">Y tu genero?</string>
+    <string name="et2">Aqui :D</string>
+    <string name="admiracion">!</string>
+    <string name="Bienvenida">Bienvenida</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="Bienvenid">Bienvenid@</string>
+    <string-array name="sexo">
+        <item>Otro</item>
+        <item>F</item>
+        <item>M</item>
+    </string-array>
+
+</resources>

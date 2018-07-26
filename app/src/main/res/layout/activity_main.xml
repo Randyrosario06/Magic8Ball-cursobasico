@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorFondo"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30dp"
+        android:textColor="@color/colorLetra"
+        android:id="@+id/tv0"
+        android:gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Magic 8-Ball"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/colorLetra"
+        android:id="@+id/tv1"
+        android:layout_below="@id/tv0"
+        android:gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/et1"
+        android:layout_marginBottom="25dp"
+        />
+
+    <EditText
+        android:textCursorDrawable="@color/colorLetra"
+        android:textColor="@color/colorLetra"
+        android:layout_marginBottom="25dp"
+        android:layout_below="@+id/tv1"
+        android:id="@+id/et1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et2"
+        android:gravity="center"
+        android:backgroundTint="#fff"
+        android:textColorHint="@color/colorLetra"
+         />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/colorLetra"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_below="@+id/et1"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/et3"/>
+
+
+    <Spinner
+
+        android:textColor="@color/colorLetra"
+        android:layout_below="@id/tv2"
+        android:id="@+id/spiner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/spiner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLetra"
+        android:text="NEXT"
+        android:background="@color/colorFondo"/>
+
+</RelativeLayout>
