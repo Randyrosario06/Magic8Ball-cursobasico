@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/colorFondo"
+    android:background="@drawable/estrellas1"
     tools:context=".MainActivity">
 
 
@@ -62,13 +62,14 @@
 
     <Spinner
 
-        android:textColor="@color/colorLetra"
+        android:background="@color/colorLetra"
         android:layout_below="@id/tv2"
         android:id="@+id/spiner"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:spinnerMode="dropdown"
-        android:layout_marginLeft="25dp"/>
+        android:gravity="center"
+        android:layout_marginLeft="60dp"/>
 
     <Button
         android:id="@+id/btn"

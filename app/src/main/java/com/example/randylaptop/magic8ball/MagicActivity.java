@@ -49,7 +49,7 @@ public class MagicActivity extends AppCompatActivity {
 
         if (color.equals("Otro")) {
             layout.setBackgroundColor(Color.parseColor("#c3d305"));
-            tv.setText("Bienvenid@ "+ "!");
+            tv.setText("Bienvenid@ "+valor+ "!");
         }
 
         bt.setOnClickListener(new View.OnClickListener() {
