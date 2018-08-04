@@ -15,7 +15,7 @@
         android:textSize="25sp"
         android:textColor="@color/colorLetra"
         android:layout_centerHorizontal="true"
-        android:text="HOLA!!!!"/>
+        android:text="@string/Saludo"/>
 
     <TextView
         android:layout_centerHorizontal="true"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:textSize="25sp"
         android:textColor="@color/colorLetra"
-        android:text="Preguntame algo :)"
+        android:text="@string/preguntame_algo"
         android:layout_below="@+id/tvm"/>
 
     <ImageView

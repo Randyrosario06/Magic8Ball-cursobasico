@@ -3,10 +3,8 @@
     <string name="et1">Escribe tu nombre.</string>
     <string name="et3">Y tu genero?</string>
     <string name="et2">Aqui :D</string>
-    <string name="admiracion">!</string>
-    <string name="Bienvenida">Bienvenida</string>
-    <string name="Bienvenido">Bienvenido</string>
-    <string name="Bienvenid">Bienvenid@</string>
+    <string name="preguntame_algo">Preguntame algo :)</string>
+    <string name="Saludo">Hola!!!</string>
     <string-array name="sexo">
         <item>Otro</item>
         <item>F</item>

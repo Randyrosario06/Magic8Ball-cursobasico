@@ -19,13 +19,15 @@ import java.util.Random;
 public class MagicActivity extends AppCompatActivity {
 
     private TextView tv2;
-    private Random r;
+    private Random r = new Random();
+    private final String respuestas[] =  {"Definitivamente", "Por Supuesto!", "Si", "NO!",
+            "Claro :)", "No creo que quieras saberlo", "Concentrate mas y pregunta de nuevo", "Problamente", "Lo dudo",
+            "Okey gracias", "Para que responderte lo que ya sabes?", "Si lo quieres solo hazlo"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_magic);
-
 
         TextView tv = findViewById(R.id.tvm);
         RelativeLayout layout = findViewById(R.id.T);
@@ -33,10 +35,6 @@ public class MagicActivity extends AppCompatActivity {
         String color = getIntent().getStringExtra("gen");
         Button bt = findViewById(R.id.btn);
         tv2 = findViewById(R.id.tvm2);
-        r = new Random();
-        final String respuestas[] = {"Definitivamente", "Por Supuesto!", "Si", "NO!",
-                "Claro :)", "No creo que quieras saberlo", "Concentrate mas y pregunta de nuevo", "Problamente", "Lo dudo",
-                "Okey gracias", "Para que responderte lo que ya sabes?", "Si lo quieres solo hazlo"};
 
         if (color.equals("F")) {
             layout.setBackgroundColor(Color.parseColor("#ff33ca"));
@@ -60,7 +58,8 @@ public class MagicActivity extends AppCompatActivity {
             }
         });
 
-
     }
+
+
 
 }
